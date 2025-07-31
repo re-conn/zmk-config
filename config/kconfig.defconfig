@@ -1,0 +1,6 @@
+if SHIELD_SIXSIXKEY
+
+config ZMK_KEYBOARD_NAME
+  default "66key"
+
+endif
