@@ -1,6 +1,6 @@
 if SHIELD_SIXSIXKEYS
 
-config ZMK_KEYBOARD_NAME
+config SUNSET
   default "66keys"
 
 endif
