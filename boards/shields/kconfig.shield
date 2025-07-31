@@ -1,2 +1,2 @@
-config SHIELD_SIXSIXKEY
-  def_bool $(shields_list_contains, 66key)
+config SHIELD_SIXSIXKEYS
+  def_bool $(shields_list_contains, 66keys)
