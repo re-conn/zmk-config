@@ -20,6 +20,6 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: nibble
+    shield: 66keys
   - board: nice_nano_v2
     shield: tester_pro_micro
