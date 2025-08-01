@@ -1,4 +1,4 @@
-if SHIELD_SIXSIXKEYS
+if SHIELD_66KEYS
 
 config SUNSET
   default "66keys"
