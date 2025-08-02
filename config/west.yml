@@ -15,5 +15,6 @@ manifest:
     - name: 66keys
       remote: 66keys_base
       repo-path: 66keys
+      revision: main
   self:
     path: config
