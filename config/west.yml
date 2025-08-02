@@ -4,8 +4,8 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: 66keys
-      url-base: https://github.com/re-conn/
+    - name: 66keys_base
+      url-base: https://github.com/re-conn/66keys
     # Additional modules containing boards/shields/custom code can be listed here as well
     # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
   projects:
@@ -13,7 +13,7 @@ manifest:
       remote: zmkfirmware
       import: app/west.yml
     - name: 66keys
-      remote: 66keys
+      remote: 66keys_base
       revision: main
   self:
     path: config
